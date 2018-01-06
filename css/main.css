@@ -1,0 +1,42 @@
+  body { 
+      padding-top: 70px; 
+      background:none;
+  }
+    .jumbotron {
+      color: #2c3e50;
+      background:whitesmoke;
+    }
+
+    h3 {
+    text-align: center;
+    text-transform: uppercase;
+    color:#2c3e50;
+    }
+    .navbar-inverse {
+      background: #232526;
+      color: white;
+    }
+    .navbar-inverse .navbar-brand, .navbar-inverse a{
+      color:white;
+    }
+    .navbar-inverse .navbar-nav>li>a {
+      color:whitesmoke;
+      transition: 0.3s ease-in;
+    } 
+
+   .thumbnail {
+    background-color:whitesmoke;
+    border-bottom-left-radius: 5%;
+    transition: 0.4s ease-out;
+   
+   }
+
+   .thumbnail:hover {
+     box-shadow: 0px 0.4px 5px 0px;
+       color:grey;
+}
+
+   .hoverme:hover {
+      opacity: 0.5;
+    }
+
